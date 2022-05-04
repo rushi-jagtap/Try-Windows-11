@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('/WIN\ 11/bg.jpeg'); */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+
+.right{
+    justify-self: self-end;
+    position: absolute;
+    right: 0;
+    margin: 5px;
+    height: 85%;
+}
